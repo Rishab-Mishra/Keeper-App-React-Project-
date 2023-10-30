@@ -5,7 +5,7 @@ function Footer(){
 
     return(
         <footer>
-            <p>copyright ⓒ rishabh.mishra.8859@gmail.com-{year}</p>
+            <p>copyright ⓒ rishabh.mishra.8859@gmail.com{year}</p>
         </footer>
     );
 }

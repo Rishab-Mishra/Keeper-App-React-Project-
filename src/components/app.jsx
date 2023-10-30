@@ -31,14 +31,16 @@ function deleteNote(id){
             <Header/>
             <CreateArea  onAdd={addNote}/>
             {newNote.map((foundNote , index)=>{
-                return <Note 
+                return (
+                    <Note 
                     title={foundNote.title}
                     content={foundNote.content}
                     onPress={deleteNote}
                     key={index}
                     id={index}
-                />;
-            })};
+                />
+                );
+            })}
             <Footer/>
             
         </div>
